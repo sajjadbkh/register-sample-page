@@ -1,0 +1,16 @@
+//? vazir font LIGHT
+@font-face {
+    font-family: "Vazir-light";
+    src: url(../fonts/Vazir-Light.eot) format("embeded-opentype") ,
+    url(../fonts/Vazir-Light.woff2) format("woff2"),
+    url(../fonts/Vazir-Light.woff) format("woff"),
+    url(../fonts/Vazir-Light.ttf) format("truetype");
+}
+//? vazir font MEDIUM
+@font-face {
+    font-family: "Vazir";
+    src: url(../fonts/Vazir-Medium.eot) format("embeded-opentype") ,
+    url(../fonts/Vazir-Medium.woff2) format("woff2"),
+    url(../fonts/Vazir-Medium.woff) format("woff"),
+    url(../fonts/Vazir-Medium.ttf) format("truetype");
+}

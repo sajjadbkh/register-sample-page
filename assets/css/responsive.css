@@ -1,0 +1,687 @@
+@media screen and (max-width: 1440px) and (min-width: 768px) {
+  #register {
+    width: 100%;
+    height: 100vh;
+    background: url(../images/back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #register .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 85%;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+  #register .container .rightWrapper {
+    width: 65%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  #register .container .rightWrapper .right-register {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0rem 0;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    display: flex;
+    justify-content: none;
+    flex-flow: column wrap;
+    align-items: center;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+  }
+  #register .container .rightWrapper .right-register .title {
+    color: #3bb397;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  #register .container .rightWrapper .right-register ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  #register .container .rightWrapper .right-register ul li {
+    list-style: none;
+    margin: 1rem;
+  }
+  #register .container .rightWrapper .right-register ul li a {
+    color: #222;
+  }
+  #register .container .rightWrapper .right-register ul li a svg {
+    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  #register .container .rightWrapper .right-register ul li a .icon.fa-google-plus-g {
+    color: #d34836;
+  }
+  #register .container .rightWrapper .right-register ul li a .icon.fa-facebook-f {
+    color: #3b5998;
+  }
+  #register .container .rightWrapper .right-register ul li a .icon.fa-linkedin-in {
+    color: #0072b1;
+  }
+  #register .container .rightWrapper .right-register .desc {
+    color: rgba(34, 34, 34, 0.363);
+    font-family: "Vazir-light";
+    margin: 0;
+  }
+  #register .container .rightWrapper .right-register .registerForm {
+    margin: 0;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 0;
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem input {
+    caret-color: #3bb397;
+    font-family: "Vazir-light";
+    background-color: transparent;
+    margin: 0.5rem 0;
+    font-size: .9rem;
+    width: 80%;
+    height: auto;
+    outline: none;
+    padding: 0.2rem 1rem;
+    border: none;
+    border-bottom: 2px solid rgba(51, 50, 50, 0.39);
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem input:focus {
+    border-bottom: 2px solid #3bb397;
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem .icon {
+    width: 10%;
+    font-size: 1rem;
+    color: #3bb397;
+  }
+  #register .container .rightWrapper .right-register .registerForm .btnSubmit {
+    color: #ffffff;
+    margin: .5rem;
+    font-size: 0.8rem;
+    padding: 0.5rem 2rem;
+    background-color: #3bb397;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+  }
+  #register .container .rightWrapper .right-sign-in {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0rem 0;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+    display: flex;
+    justify-content: none;
+    flex-flow: column wrap;
+    align-items: center;
+    transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    -ms-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+  }
+  #register .container .rightWrapper .right-sign-in .title {
+    color: #3bb397;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  #register .container .rightWrapper .right-sign-in ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  #register .container .rightWrapper .right-sign-in ul li {
+    list-style: none;
+    margin: 1rem;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a {
+    color: #222;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a svg {
+    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a .icon.fa-google-plus-g {
+    color: #d34836;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a .icon.fa-facebook-f {
+    color: #3b5998;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a .icon.fa-linkedin-in {
+    color: #0072b1;
+  }
+  #register .container .rightWrapper .right-sign-in .desc {
+    color: rgba(34, 34, 34, 0.363);
+    font-family: "Vazir-light";
+    margin: 0;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm {
+    margin: 0;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 0;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem input {
+    caret-color: #3bb397;
+    font-family: "Vazir-light";
+    background-color: transparent;
+    margin: 0.5rem 0;
+    font-size: .9rem;
+    width: 80%;
+    height: auto;
+    outline: none;
+    padding: 0.2rem 1rem;
+    border: none;
+    border-bottom: 2px solid rgba(51, 50, 50, 0.39);
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem input:focus {
+    border-bottom: 2px solid #3bb397;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem .icon {
+    width: 10%;
+    font-size: 1rem;
+    color: #3bb397;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .btnSubmit {
+    color: #ffffff;
+    margin: .5rem;
+    font-size: 0.8rem;
+    padding: 0.5rem 2rem;
+    background-color: #3bb397;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  #register .container {
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+  #register .container .rightWrapper {
+    width: 100%;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+  #register .container .rightWrapper .right-register {
+    padding: 0;
+    justify-content: space-around;
+  }
+  #register .container .rightWrapper .right-register .title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  #register .container .rightWrapper .right-register ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  #register .container .rightWrapper .right-register ul li {
+    list-style: none;
+    margin: 0 1rem;
+  }
+  #register .container .rightWrapper .right-register ul li a {
+    color: #222;
+  }
+  #register .container .rightWrapper .right-register ul li a svg {
+    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  #register .container .rightWrapper .right-register ul li a .icon.fa-google-plus-g {
+    color: #d34836;
+  }
+  #register .container .rightWrapper .right-register ul li a .icon.fa-facebook-f {
+    color: #3b5998;
+  }
+  #register .container .rightWrapper .right-register ul li a .icon.fa-linkedin-in {
+    color: #0072b1;
+  }
+  #register .container .rightWrapper .right-register .desc {
+    color: rgba(34, 34, 34, 0.363);
+    font-family: "Vazir-light";
+    margin-bottom: 0;
+  }
+  #register .container .rightWrapper .right-register .registerForm {
+    margin: 0;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem input {
+    caret-color: #3bb397;
+    font-family: "Vazir-light";
+    background-color: transparent;
+    font-size: .7rem;
+    width: 80%;
+    height: auto;
+    outline: none;
+    padding: 0.2rem 1rem;
+    border: none;
+    border-bottom: 2px solid rgba(51, 50, 50, 0.39);
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem input:focus {
+    border-bottom: 2px solid #3bb397;
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem .icon {
+    display: none;
+    width: 10%;
+    font-size: 1.1rem;
+    color: #3bb397;
+  }
+  #register .container .rightWrapper .right-register .registerForm .btnSubmit {
+    color: #ffffff;
+    margin: .5rem;
+    font-size: .8rem;
+    padding: 0.5rem 3rem;
+    background-color: #3bb397;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+  }
+  #register .container .rightWrapper .right-sign-in {
+    padding: 0;
+    justify-content: space-around;
+  }
+  #register .container .rightWrapper .right-sign-in .title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  #register .container .rightWrapper .right-sign-in ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  #register .container .rightWrapper .right-sign-in ul li {
+    list-style: none;
+    margin: 0 1rem;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a {
+    color: #222;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a svg {
+    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a .icon.fa-google-plus-g {
+    color: #d34836;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a .icon.fa-facebook-f {
+    color: #3b5998;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a .icon.fa-linkedin-in {
+    color: #0072b1;
+  }
+  #register .container .rightWrapper .right-sign-in .desc {
+    color: rgba(34, 34, 34, 0.363);
+    font-family: "Vazir-light";
+    margin-bottom: 0;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm {
+    margin: 0;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem input {
+    caret-color: #3bb397;
+    font-family: "Vazir-light";
+    background-color: transparent;
+    font-size: .7rem;
+    width: 80%;
+    height: auto;
+    outline: none;
+    padding: 0.2rem 1rem;
+    border: none;
+    border-bottom: 2px solid rgba(51, 50, 50, 0.39);
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem input:focus {
+    border-bottom: 2px solid #3bb397;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem .icon {
+    display: none;
+    width: 10%;
+    font-size: 1.1rem;
+    color: #3bb397;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .btnSubmit {
+    color: #ffffff;
+    margin: .5rem;
+    font-size: .8rem;
+    padding: 0.5rem 3rem;
+    background-color: #3bb397;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+  }
+  #register .container .left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px) {
+  #register .container {
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+  #register .container .rightWrapper {
+    width: 100%;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+  #register .container .rightWrapper .right-register {
+    padding: 0;
+    justify-content: space-evenly;
+  }
+  #register .container .rightWrapper .right-register .title {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  #register .container .rightWrapper .right-register ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  #register .container .rightWrapper .right-register ul li {
+    list-style: none;
+    margin: 0 1rem;
+  }
+  #register .container .rightWrapper .right-register ul li a {
+    color: #222;
+  }
+  #register .container .rightWrapper .right-register ul li a svg {
+    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  #register .container .rightWrapper .right-register ul li a .icon.fa-google-plus-g {
+    color: #d34836;
+  }
+  #register .container .rightWrapper .right-register ul li a .icon.fa-facebook-f {
+    color: #3b5998;
+  }
+  #register .container .rightWrapper .right-register ul li a .icon.fa-linkedin-in {
+    color: #0072b1;
+  }
+  #register .container .rightWrapper .right-register .desc {
+    color: rgba(34, 34, 34, 0.363);
+    font-family: "Vazir-light";
+    margin-bottom: 0;
+  }
+  #register .container .rightWrapper .right-register .registerForm {
+    margin: 0;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem input {
+    caret-color: #3bb397;
+    font-family: "Vazir-light";
+    background-color: transparent;
+    font-size: .7rem;
+    width: 95%;
+    height: auto;
+    outline: none;
+    padding: 0.2rem 1rem;
+    border: none;
+    border-bottom: 2px solid rgba(51, 50, 50, 0.39);
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem input:focus {
+    border-bottom: 2px solid #3bb397;
+  }
+  #register .container .rightWrapper .right-register .registerForm .formItem .icon {
+    display: none;
+    width: 10%;
+    font-size: 1rem;
+    color: #3bb397;
+  }
+  #register .container .rightWrapper .right-register .registerForm .btnSubmit {
+    color: #ffffff;
+    margin: .5rem;
+    font-size: .6rem;
+    padding: 0.4rem 2rem;
+    background-color: #3bb397;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+  }
+  #register .container .rightWrapper .right-sign-in {
+    padding: 0;
+    justify-content: space-around;
+  }
+  #register .container .rightWrapper .right-sign-in .title {
+    font-size: 2rem;
+    margin: 0;
+  }
+  #register .container .rightWrapper .right-sign-in ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  #register .container .rightWrapper .right-sign-in ul li {
+    list-style: none;
+    margin: 0 1rem;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a {
+    color: #222;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a svg {
+    padding: 0.5rem;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #222;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a .icon.fa-google-plus-g {
+    color: #d34836;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a .icon.fa-facebook-f {
+    color: #3b5998;
+  }
+  #register .container .rightWrapper .right-sign-in ul li a .icon.fa-linkedin-in {
+    color: #0072b1;
+  }
+  #register .container .rightWrapper .right-sign-in .desc {
+    color: rgba(34, 34, 34, 0.363);
+    font-family: "Vazir-light";
+    margin-bottom: 0;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm {
+    margin: 0;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem input {
+    caret-color: #3bb397;
+    font-family: "Vazir-light";
+    background-color: transparent;
+    font-size: .7rem;
+    width: 95%;
+    height: auto;
+    outline: none;
+    padding: 0.2rem 1rem;
+    border: none;
+    border-bottom: 2px solid rgba(51, 50, 50, 0.39);
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem input:focus {
+    border-bottom: 2px solid #3bb397;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .formItem .icon {
+    display: none;
+    width: 10%;
+    font-size: 1rem;
+    color: #3bb397;
+  }
+  #register .container .rightWrapper .right-sign-in .registerForm .btnSubmit {
+    color: #ffffff;
+    margin: .5rem;
+    font-size: .6rem;
+    padding: 0.4rem 2rem;
+    background-color: #3bb397;
+    border: none;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+  }
+  #register .container .left {
+    display: none;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
