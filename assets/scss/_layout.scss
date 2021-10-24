@@ -3,6 +3,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
+  max-height: max-content;
+  min-height: 100vh;
   @include flex (center, center);
 }
 
