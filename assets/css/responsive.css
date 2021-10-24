@@ -47,7 +47,7 @@
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.42);
     display: flex;
-    justify-content: none;
+    justify-content: center;
     flex-flow: column wrap;
     align-items: center;
     transition: all 0.5s ease-in;
@@ -163,7 +163,7 @@
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(255, 255, 255, 0.42);
     display: flex;
-    justify-content: none;
+    justify-content: center;
     flex-flow: column wrap;
     align-items: center;
     transition: all 0.5s ease-in;
@@ -284,7 +284,7 @@
   }
   #register .container .rightWrapper .right-register {
     padding: 0;
-    justify-content: space-around;
+    justify-content: center;
   }
   #register .container .rightWrapper .right-register .title {
     font-size: 2rem;
@@ -403,7 +403,7 @@
   }
   #register .container .rightWrapper .right-sign-in {
     padding: 0;
-    justify-content: space-around;
+    justify-content: center;
   }
   #register .container .rightWrapper .right-sign-in .title {
     font-size: 2rem;
@@ -544,7 +544,7 @@
   }
   #register .container .rightWrapper .right-register {
     padding: 0;
-    justify-content: space-around;
+    justify-content: center;
   }
   #register .container .rightWrapper .right-register .title {
     font-size: 2rem;
@@ -664,7 +664,7 @@
   }
   #register .container .rightWrapper .right-sign-in {
     padding: 0;
-    justify-content: space-around;
+    justify-content: center;
   }
   #register .container .rightWrapper .right-sign-in .title {
     font-size: 2rem;
