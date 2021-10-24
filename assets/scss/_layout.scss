@@ -1,4 +1,4 @@
-body{
+body {
   background: url(../images/back.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -6,404 +6,405 @@ body{
   height: max-content;
   @include flex (center, center);
 }
+
 //? register page
 #register {
-    width: 100%;
-    height: 500px;
-    @include flex (center, center);
-    //* container
-    .container {
-        @include flex(center, center);
-        width: 80%;
-        height: 85%;
-        background: rgba(#ffffff, 0.2);
+  width: 100%;
+  height: 500px;
+  @include flex (center, center);
+
+  //* container
+  .container {
+    @include flex(center, center);
+    width: 80%;
+    height: 85%;
+    background: rgba(#ffffff, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(#ffffff, 0.42);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+
+    .rightWrapper {
+      width: 65%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+
+      //* right register
+      .right-register {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 2rem 0;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background: rgba(255, 255, 255, 0.2);
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        border: 1px solid rgba(#ffffff, 0.42);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
-        border-radius: 16px;
-        -webkit-border-radius: 16px;
-        -moz-border-radius: 16px;
-        -ms-border-radius: 16px;
-        -o-border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.42);
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
 
-        .rightWrapper {
-            width: 65%;
-            height: 100%;
-            position: relative;
-            overflow: hidden;
-
-            //* right register
-            .right-register {
-                position: absolute;
-                top: 0;
-                left: 0;
-                padding: 2rem 0;
-                width: 100%;
-                height: 100%;
-                border-top-right-radius: 16px;
-                border-bottom-right-radius: 16px;
-                background: rgba(255, 255, 255, 0.2);
-                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-                backdrop-filter: blur(5px);
-                -webkit-backdrop-filter: blur(5px);
-                border: 1px solid rgba(255, 255, 255, 0.42);
-                display: flex;
-                flex-flow: column wrap;
-                justify-content: center;
-                align-items: center;
-                transition: all 0.5s ease-in;
-                -webkit-transition: all 0.5s ease-in;
-                -moz-transition: all 0.5s ease-in;
-                -ms-transition: all 0.5s ease-in;
-                -o-transition: all 0.5s ease-in;
-
-                //* title
-                .title {
-                    color: $color-green;
-                    width: 100%;
-                    text-align: center;
-                    margin-bottom: 1rem;
-                }
-
-                //* ul 
-                ul {
-                    display: flex;
-                    justify-content: space-between;
-
-                    li {
-                        list-style: none;
-                        margin: 1rem;
-
-                        a {
-                            color: #222;
-
-                            svg {
-                                padding: 0.5rem;
-                                width: 35px;
-                                height: 35px;
-                                border: 1px solid #222;
-                                border-radius: 50%;
-                                -webkit-border-radius: 50%;
-                                -moz-border-radius: 50%;
-                                -ms-border-radius: 50%;
-                                -o-border-radius: 50%;
-                            }
-
-                            .icon.fa-google-plus-g {
-                                color: #d34836;
-                            }
-
-                            .icon.fa-facebook-f {
-                                color: #3b5998;
-                            }
-
-                            .icon.fa-linkedin-in {
-                                color: #0072b1;
-                            }
-                        }
-                    }
-                }
-
-                //* desc 
-                .desc {
-                    color: rgba(34, 34, 34, 0.363);
-                    font-family: "Vazir-light";
-                    margin-bottom: 1rem;
-                }
-
-                //* form
-                .registerForm {
-                    width: 50%;
-                    height: auto;
-                    display: flex;
-                    flex-flow: column wrap;
-                    align-items: center;
-
-                    .formItem {
-                        width: 100%;
-                        display: flex;
-                        align-items: center;
-                        margin: 0.5rem 0;
-
-                        input {
-                            caret-color: $color-green;
-                            font-family: "Vazir-light";
-                            background-color: transparent;
-                            font-size: .9rem;
-                            width: 80%;
-                            height: auto;
-                            outline: none;
-                            padding: 0.2rem 1rem;
-                            border: none;
-                            border-bottom: 2px solid rgba(51, 50, 50, 0.39);
-
-                            &:focus {
-                                border-bottom: 2px solid $color-green;
-
-                            }
-                        }
-
-                        .icon {
-                            width: 10%;
-                            font-size: 1.1rem;
-                            color: $color-green;
-                        }
-                    }
-
-                    //* buttons box
-                    .buttons {
-                        width: 100%;
-                        display: flex;
-                        height: max-content;
-                        align-items: center;
-                        justify-content: center;
-
-                        //* register button
-                        .btnSubmit {
-                            height: max-content;
-                            color: #ffffff;
-                            font-family: "Vazir-light";
-                            margin: .5rem;
-                            padding: 0.5rem 3rem;
-                            background-color: $color-green;
-                            border: none;
-                            border-radius: 25px;
-                            -webkit-border-radius: 25px;
-                            -moz-border-radius: 25px;
-                            -ms-border-radius: 25px;
-                            -o-border-radius: 25px;
-                            cursor: pointer;
-                        }
-
-                        //* singIn button
-                        .btnSignIn {
-                            display: none;
-                            height: max-content;
-                            font-family: "Vazir-light";
-                            color: $color-green;
-                            margin: .5rem;
-                            padding: 0.5rem 3rem;
-                            background-color: transparent;
-                            border: 1px solid $color-green;
-                            border-radius: 25px;
-                            -webkit-border-radius: 25px;
-                            -moz-border-radius: 25px;
-                            -ms-border-radius: 25px;
-                            -o-border-radius: 25px;
-                            cursor: pointer;
-                        }
-                    }
-
-                }
-
-            }
-
-            //* sign in
-            .right-sign-in {
-                position: absolute;
-                top: 0;
-                right: -100%;
-                padding: 2rem 0;
-                width: 100%;
-                height: 100%;
-                border-top-right-radius: 16px;
-                border-bottom-right-radius: 16px;
-                background: rgba(255, 255, 255, 0.2);
-                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-                backdrop-filter: blur(5px);
-                -webkit-backdrop-filter: blur(5px);
-                border: 1px solid rgba(255, 255, 255, 0.42);
-                display: flex;
-                flex-flow: column wrap;
-                align-items: center;
-                justify-content: center;
-                transition: all 0.5s ease-in;
-                -webkit-transition: all 0.5s ease-in;
-                -moz-transition: all 0.5s ease-in;
-                -ms-transition: all 0.5s ease-in;
-                -o-transition: all 0.5s ease-in;
-
-                //* title
-                .title {
-                    color: $color-green;
-                    width: 100%;
-                    text-align: center;
-                    margin-bottom: 1rem;
-                }
-
-                //* ul 
-                ul {
-                    display: flex;
-                    justify-content: space-between;
-
-                    li {
-                        list-style: none;
-                        margin: 1rem;
-
-                        a {
-                            color: #222;
-
-                            svg {
-                                padding: 0.5rem;
-                                width: 35px;
-                                height: 35px;
-                                border: 1px solid #222;
-                                border-radius: 50%;
-                                -webkit-border-radius: 50%;
-                                -moz-border-radius: 50%;
-                                -ms-border-radius: 50%;
-                                -o-border-radius: 50%;
-                            }
-
-                            .icon.fa-google-plus-g {
-                                color: #d34836;
-                            }
-
-                            .icon.fa-facebook-f {
-                                color: #3b5998;
-                            }
-
-                            .icon.fa-linkedin-in {
-                                color: #0072b1;
-                            }
-                        }
-                    }
-                }
-
-                //* desc 
-                .desc {
-                    color: rgba(34, 34, 34, 0.363);
-                    font-family: "Vazir-light";
-                    margin-bottom: 1rem;
-                }
-
-                //* form
-                .registerForm {
-                    width: 50%;
-                    height: auto;
-                    display: flex;
-                    flex-flow: column wrap;
-                    align-items: center;
-
-                    .formItem {
-                        width: 100%;
-                        display: flex;
-                        align-items: center;
-                        margin: 0.5rem 0;
-
-                        input {
-                            caret-color: $color-green;
-                            font-family: "Vazir-light";
-                            background-color: transparent;
-                            font-size: .9rem;
-                            width: 80%;
-                            height: auto;
-                            outline: none;
-                            padding: 0.2rem 1rem;
-                            border: none;
-                            border-bottom: 2px solid rgba(51, 50, 50, 0.39);
-
-                            &:focus {
-                                border-bottom: 2px solid $color-green;
-
-                            }
-                        }
-
-                        .icon {
-                            width: 10%;
-                            font-size: 1.1rem;
-                            color: $color-green;
-                        }
-                    }
-
-                    //* buttons box
-                    .buttons {
-                        width: 100%;
-                        display: flex;
-                        height: auto;
-                        justify-content: center;
-
-                        .btnRegister {
-                            display: block;
-                            color: #ffffff;
-                            margin: .5rem;
-                            padding: 0.5rem 3rem;
-                            background-color: $color-green;
-                            border: none;
-                            border-radius: 25px;
-                            -webkit-border-radius: 25px;
-                            -moz-border-radius: 25px;
-                            -ms-border-radius: 25px;
-                            -o-border-radius: 25px;
-                            cursor: pointer;
-
-                        }
-
-                        //* singIn button
-                        .btnSignIn {
-                            display: none;
-                            color: $color-green;
-                            margin: .5rem;
-                            padding: 0.5rem 3rem;
-                            background-color: transparent;
-                            border: 1px solid $color-green;
-                            border-radius: 25px;
-                            -webkit-border-radius: 25px;
-                            -moz-border-radius: 25px;
-                            -ms-border-radius: 25px;
-                            -o-border-radius: 25px;
-                            cursor: pointer;
-                        }
-                    }
-
-                }
-            }
-
+        //*title
+        .title {
+          color: $color-green;
+          width: 100%;
+          text-align: center;
+          margin-bottom: 1rem;
         }
 
+        //* ul 
+        ul {
+          display: flex;
+          justify-content: space-between;
 
-        //* left
-        .left {
-            width: 35%;
-            height: 100%;
-            background: url(../images/2.svg);
-            background-position: center;
-            border-top-left-radius: 16px;
-            border-bottom-left-radius: 16px;
+          li {
+            list-style: none;
+            margin: 1rem;
+
+            a {
+              color: #222;
+
+              svg {
+                padding: 0.5rem;
+                width: 35px;
+                height: 35px;
+                border: 1px solid #222;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+              }
+
+              .icon.fa-google-plus-g {
+                color: #d34836;
+              }
+
+              .icon.fa-facebook-f {
+                color: #3b5998;
+              }
+
+              .icon.fa-linkedin-in {
+                color: #0072b1;
+              }
+            }
+          }
+        }
+
+        //* desc 
+        .desc {
+          color: rgba(34, 34, 34, 0.363);
+          font-family: "Vazir-light";
+          margin-bottom: 1rem;
+        }
+
+        //* form
+        .registerForm {
+          width: 50%;
+          height: auto;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+
+          .formItem {
+            width: 100%;
             display: flex;
-            flex-flow: column wrap;
-            justify-content: center;
-            padding: 0 .5rem;
             align-items: center;
+            margin: 0.5rem 0;
 
-            .title {
-                color: #ffffff;
-                margin-bottom: 1rem;
+            input {
+              caret-color: $color-green;
+              font-family: "Vazir-light";
+              background-color: transparent;
+              font-size: .9rem;
+              width: 80%;
+              height: auto;
+              outline: none;
+              padding: 0.2rem 1rem;
+              border: none;
+              border-bottom: 2px solid rgba(51, 50, 50, 0.39);
+
+              &:focus {
+                border-bottom: 2px solid $color-green;
+
+              }
             }
 
-            .desc {
-                color: #ffffff;
-                font-family: "Vazir-light";
-                font-size: .7rem;
-                margin-bottom: 1rem;
+            .icon {
+              width: 10%;
+              font-size: 1.1rem;
+              color: $color-green;
+            }
+          }
+
+          //* buttons box
+          .buttons {
+            width: 100%;
+            display: flex;
+            height: max-content;
+            align-items: center;
+            justify-content: center;
+
+            //* register button
+            .btnSubmit {
+              height: max-content;
+              color: #ffffff;
+              font-family: "Vazir-light";
+              margin: .5rem;
+              padding: 0.5rem 3rem;
+              background-color: $color-green;
+              border: none;
+              border-radius: 25px;
+              -webkit-border-radius: 25px;
+              -moz-border-radius: 25px;
+              -ms-border-radius: 25px;
+              -o-border-radius: 25px;
+              cursor: pointer;
             }
 
-            .button {
-                padding: 0.3rem 2rem;
-                background-color: transparent;
-                border: 1px solid #ffffff;
-                border-radius: 25px;
-                -webkit-border-radius: 25px;
-                -moz-border-radius: 25px;
-                -ms-border-radius: 25px;
-                -o-border-radius: 25px;
-                font-family: "Vazir-light";
-                color: #ffffff;
-                cursor: pointer;
+            //* singIn button
+            .btnSignIn {
+              display: none;
+              height: max-content;
+              font-family: "Vazir-light";
+              color: $color-green;
+              margin: .5rem;
+              padding: 0.5rem 3rem;
+              background-color: transparent;
+              border: 1px solid $color-green;
+              border-radius: 25px;
+              -webkit-border-radius: 25px;
+              -moz-border-radius: 25px;
+              -ms-border-radius: 25px;
+              -o-border-radius: 25px;
+              cursor: pointer;
             }
+          }
 
         }
+      }
+
+      //* sign in
+      .right-sign-in {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        padding: 2rem 0;
+        width: 100%;
+        height: 100%;
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.42);
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s linear;
+        -webkit-transition: all 0.5s linear;
+        -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+        -o-transition: all 0.5s linear;
+
+        //*title
+        .title {
+          color: $color-green;
+          width: 100%;
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+
+        //* ul 
+        ul {
+          display: flex;
+          justify-content: space-between;
+
+          li {
+            list-style: none;
+            margin: 1rem;
+
+            a {
+              color: #222;
+
+              svg {
+                padding: 0.5rem;
+                width: 35px;
+                height: 35px;
+                border: 1px solid #222;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+              }
+
+              .icon.fa-google-plus-g {
+                color: #d34836;
+              }
+
+              .icon.fa-facebook-f {
+                color: #3b5998;
+              }
+
+              .icon.fa-linkedin-in {
+                color: #0072b1;
+              }
+            }
+          }
+        }
+
+        //* desc 
+        .desc {
+          color: rgba(34, 34, 34, 0.363);
+          font-family: "Vazir-light";
+          margin-bottom: 1rem;
+        }
+
+        //* form
+        .registerForm {
+          width: 50%;
+          height: auto;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+
+          .formItem {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin: 0.5rem 0;
+
+            input {
+              caret-color: $color-green;
+              font-family: "Vazir-light";
+              background-color: transparent;
+              font-size: .9rem;
+              width: 80%;
+              height: auto;
+              outline: none;
+              padding: 0.2rem 1rem;
+              border: none;
+              border-bottom: 2px solid rgba(51, 50, 50, 0.39);
+
+              &:focus {
+                border-bottom: 2px solid $color-green;
+
+              }
+            }
+
+            .icon {
+              width: 10%;
+              font-size: 1.1rem;
+              color: $color-green;
+            }
+          }
+
+          //* buttons box
+          .buttons {
+            width: 100%;
+            display: flex;
+            height: auto;
+            justify-content: center;
+
+            .btnRegister {
+              display: block;
+              color: #ffffff;
+              margin: .5rem;
+              padding: 0.5rem 3rem;
+              background-color: $color-green;
+              border: none;
+              border-radius: 25px;
+              -webkit-border-radius: 25px;
+              -moz-border-radius: 25px;
+              -ms-border-radius: 25px;
+              -o-border-radius: 25px;
+              cursor: pointer;
+
+            }
+
+            //* singIn button
+            .btnSignIn {
+              display: none;
+              color: $color-green;
+              margin: .5rem;
+              padding: 0.5rem 3rem;
+              background-color: transparent;
+              border: 1px solid $color-green;
+              border-radius: 25px;
+              -webkit-border-radius: 25px;
+              -moz-border-radius: 25px;
+              -ms-border-radius: 25px;
+              -o-border-radius: 25px;
+              cursor: pointer;
+            }
+          }
+
+        }
+      }
 
     }
+
+
+    //* left
+    .left {
+      width: 35%;
+      height: 100%;
+      background: url(../images/2.svg);
+      background-position: center;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      padding: 0 .5rem;
+      align-items: center;
+
+      .title {
+        color: #ffffff;
+        margin-bottom: 1rem;
+      }
+
+      .desc {
+        color: #ffffff;
+        font-family: "Vazir-light";
+        font-size: .7rem;
+        margin-bottom: 1rem;
+      }
+
+      .button {
+        padding: 0.3rem 2rem;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        font-family: "Vazir-light";
+        color: #ffffff;
+        cursor: pointer;
+      }
+
+    }
+
+  }
 }

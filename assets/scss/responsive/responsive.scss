@@ -62,11 +62,11 @@ $font-Vazir : "Vazir";
                     justify-content: center;
                     flex-flow: column wrap;
                     align-items: center;
-                    transition: all 0.5s ease-in;
-                    -webkit-transition: all 0.5s ease-in;
-                    -moz-transition: all 0.5s ease-in;
-                    -ms-transition: all 0.5s ease-in;
-                    -o-transition: all 0.5s ease-in;
+                    transition: all 0.5s linear;
+                    -webkit-transition: all 0.5s linear;
+                    -moz-transition: all 0.5s linear;
+                    -ms-transition: all 0.5s linear;
+                    -o-transition: all 0.5s linear;
 
                     //* title
                     .title {
@@ -201,11 +201,11 @@ $font-Vazir : "Vazir";
                     justify-content: center;
                     flex-flow: column wrap;
                     align-items: center;
-                    transition: all 0.5s ease-in;
-                    -webkit-transition: all 0.5s ease-in;
-                    -moz-transition: all 0.5s ease-in;
-                    -ms-transition: all 0.5s ease-in;
-                    -o-transition: all 0.5s ease-in;
+                    transition: all 0.5s linear;
+                    -webkit-transition: all 0.5s linear;
+                    -moz-transition: all 0.5s linear;
+                    -ms-transition: all 0.5s linear;
+                    -o-transition: all 0.5s linear;
 
                     //* title
                     .title {
@@ -347,7 +347,7 @@ $font-Vazir : "Vazir";
                 .right-register {
                     padding: 0;
                     justify-content: center;
-
+                    
                     .title {
                         font-size: 2rem;
                         margin: 0;
