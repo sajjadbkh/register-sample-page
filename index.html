@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,16 +8,17 @@
 
     <!-- style.css -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    
+
     <!-- responsive.css -->
     <link rel="stylesheet" href="./assets/css/responsive.css">
 
     <!-- font-awesome.css -->
-    <link rel="stylesheet" href="./assets/css/all.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
 
     <title>ثبت نام</title>
 
 </head>
+
 <body>
     <div id="register">
         <div class="container">
@@ -26,57 +28,71 @@
                 <div class="right-register">
 
                     <h1 class="title">ثبت نام کنید</h1>
-    
+
                     <ul>
                         <li><a href="#"><i class="icon fab fa-linkedin-in"></i></a></li>
                         <li><a href="#"><i class="icon fab fa-google-plus-g"></i></a></li>
                         <li><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
                     </ul>
-    
+
                     <h5 class="desc">یا میتوانید از روش زیر ثبت نام کنید</h5>
-    
+
                     <form action="#" class="registerForm">
+
                         <div class="formItem">
                             <i class="icon fa fa-user"></i>
-                            <input type="text" placeholder="نام و نام خانوادگی"/>
+                            <input type="text" placeholder="نام و نام خانوادگی" />
                         </div>
+
                         <div class="formItem">
                             <i class="icon fas fa-envelope"></i>
-                            <input type="email" placeholder="ایمیل"/>
+                            <input type="email" placeholder="ایمیل" />
                         </div>
+
                         <div class="formItem">
                             <i class="icon fas fa-lock"></i>
-                            <input type="password" placeholder="پسورد"/>
+                            <input type="password" placeholder="پسورد" />
                         </div>
-                        <button class="btnSubmit" type="submit">ثبت نام</button>
+
+                        <div class="buttons">
+                            <button class="btnSubmit" type="submit">ثبت نام</button>
+                            <button class="btnSignIn" id="signIn" type="submit">ورود</button>
+                        </div>
+
                     </form>
-    
+
                 </div>
-    
+
                 <div class="right-sign-in">
-    
+
                     <h1 class="title">وارد شوید</h1>
-    
+
                     <ul>
                         <li><a href="#"><i class="icon fab fa-linkedin-in"></i></a></li>
                         <li><a href="#"><i class="icon fab fa-google-plus-g"></i></a></li>
                         <li><a href="#"><i class="icon fab fa-facebook-f"></i></a></li>
                     </ul>
-    
+
                     <h5 class="desc">یا میتوانید از روش زیر وارد شوید</h5>
-    
+
                     <form action="#" class="registerForm">
+
                         <div class="formItem">
                             <i class="icon fas fa-envelope"></i>
-                            <input type="email" placeholder="ایمیل"/>
+                            <input type="email" placeholder="ایمیل" />
                         </div>
+
                         <div class="formItem">
                             <i class="icon fas fa-lock"></i>
-                            <input type="password" placeholder="پسورد"/>
+                            <input type="password" placeholder="پسورد" />
                         </div>
-                        <button class="btnSubmit" type="submit">ورود</button>
+
+                        <div class="buttons">
+                            <button class="btnRegister" type="submit">ورود</button>
+                            <button class="btnSignIn" id="btnRegister" type="submit">ثبت نام</button>
+                        </div>
                     </form>
-    
+
                 </div>
 
             </div>
@@ -86,13 +102,14 @@
                 <h5 class="desc">اگر قبلا ثبت نام کرده اید میتوانید از این قسمت وارد شوید</h5>
                 <button class="button" id="button" type="button">وارد شوید</button>
             </div>
-            
+
         </div>
     </div>
-    
+
 </body>
 <!-- script.js -->
 <script src="./assets/javascript/script.js"></script>
 <!-- font-awesome.js -->
-<script src="./assets/javascript/all.js"></script>
+<script src="./node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
+
 </html>

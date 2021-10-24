@@ -409,7 +409,7 @@ $font-Vazir : "Vazir";
                     //* form
                     .registerForm {
                         margin: 0;
-                        width: 50%;
+                        width: 70%;
                         height: auto;
                         display: flex;
                         flex-flow: column wrap;
@@ -446,22 +446,54 @@ $font-Vazir : "Vazir";
                                 font-size: 1.1rem;
                                 color: $color-green;
                             }
+
                         }
 
-                        .btnSubmit {
-                            color: #ffffff;
-                            margin: .5rem;
-                            font-size: .8rem;
-                            padding: 0.5rem 3rem;
-                            background-color: $color-green;
-                            border: none;
-                            border-radius: 25px;
-                            -webkit-border-radius: 25px;
-                            -moz-border-radius: 25px;
-                            -ms-border-radius: 25px;
-                            -o-border-radius: 25px;
-                            cursor: pointer;
+                        //* buttons box
+                        .buttons {
+                            width: 100%;
+                            display: flex;
+                            height: max-content;
+                            justify-content: center;
+
+                            .btnRegister {
+                                display: block;
+                                color: #ffffff;
+                                height: max-content;
+                                font-family: "Vazir-light";
+                                font-size: .9rem;
+                                padding: .3rem 2rem;
+                                background-color: $color-green;
+                                border: none;
+                                border-radius: 25px;
+                                -webkit-border-radius: 25px;
+                                -moz-border-radius: 25px;
+                                -ms-border-radius: 25px;
+                                -o-border-radius: 25px;
+                                cursor: pointer;
+
+                            }
+
+                            //* singIn button
+                            .btnSignIn {
+                                display: block;
+                                color: $color-green;
+                                height: max-content;
+                                font-family: "Vazir-light";
+                                font-size: .9rem;
+                                padding: .3rem 2rem;
+                                background-color: transparent;
+                                border: 1px solid $color-green;
+                                border-radius: 25px;
+                                -webkit-border-radius: 25px;
+                                -moz-border-radius: 25px;
+                                -ms-border-radius: 25px;
+                                -o-border-radius: 25px;
+                                cursor: pointer;
+                            }
                         }
+
+
                     }
                 }
 
@@ -524,7 +556,7 @@ $font-Vazir : "Vazir";
                     //* form
                     .registerForm {
                         margin: 0;
-                        width: 50%;
+                        width: 70%;
                         height: auto;
                         display: flex;
                         flex-flow: column wrap;
@@ -534,6 +566,8 @@ $font-Vazir : "Vazir";
                             width: 100%;
                             display: flex;
                             align-items: center;
+                            justify-content: center;
+
                             margin: 0.5rem 0;
 
                             input {
@@ -562,20 +596,51 @@ $font-Vazir : "Vazir";
                             }
                         }
 
-                        .btnSubmit {
-                            color: #ffffff;
-                            margin: .5rem;
-                            font-size: .8rem;
-                            padding: 0.5rem 3rem;
-                            background-color: $color-green;
-                            border: none;
-                            border-radius: 25px;
-                            -webkit-border-radius: 25px;
-                            -moz-border-radius: 25px;
-                            -ms-border-radius: 25px;
-                            -o-border-radius: 25px;
-                            cursor: pointer;
+                        //* buttons box
+                        .buttons {
+                            width: 100%;
+                            display: flex;
+                            height: max-content;
+                            justify-content: center;
+                            align-items: center;
+
+                            .btnRegister {
+                                display: block;
+                                color: #ffffff;
+                                height: max-content;
+                                font-family: "Vazir-light";
+                                font-size: .9rem;
+                                padding: .3rem 1.75rem;
+                                background-color: $color-green;
+                                border: none;
+                                border-radius: 25px;
+                                -webkit-border-radius: 25px;
+                                -moz-border-radius: 25px;
+                                -ms-border-radius: 25px;
+                                -o-border-radius: 25px;
+                                cursor: pointer;
+
+                            }
+
+                            //* singIn button
+                            .btnSignIn {
+                                display: block;
+                                color: $color-green;
+                                height: max-content;
+                                font-family: "Vazir-light";
+                                font-size: .9rem;
+                                padding: .3rem 2rem;
+                                background-color: transparent;
+                                border: 1px solid $color-green;
+                                border-radius: 25px;
+                                -webkit-border-radius: 25px;
+                                -moz-border-radius: 25px;
+                                -ms-border-radius: 25px;
+                                -o-border-radius: 25px;
+                                cursor: pointer;
+                            }
                         }
+
                     }
                 }
             }
@@ -607,10 +672,10 @@ $font-Vazir : "Vazir";
 
                 .right-register {
                     padding: 0;
-                    justify-content: space-evenly;
+                    justify-content: space-around;
 
                     .title {
-                        font-size: 1.5rem;
+                        font-size: 2rem;
                         margin: 0;
                     }
 
@@ -664,7 +729,7 @@ $font-Vazir : "Vazir";
                     //* form
                     .registerForm {
                         margin: 0;
-                        width: 70%;
+                        width: 90%;
                         height: auto;
                         display: flex;
                         flex-flow: column wrap;
@@ -673,6 +738,7 @@ $font-Vazir : "Vazir";
                         .formItem {
                             width: 100%;
                             display: flex;
+                            justify-content: center;
                             align-items: center;
                             margin: 0.5rem 0;
 
@@ -681,7 +747,7 @@ $font-Vazir : "Vazir";
                                 font-family: "Vazir-light";
                                 background-color: transparent;
                                 font-size: .7rem;
-                                width: 95%;
+                                width: 80%;
                                 height: auto;
                                 outline: none;
                                 padding: 0.2rem 1rem;
@@ -697,34 +763,67 @@ $font-Vazir : "Vazir";
                             .icon {
                                 display: none;
                                 width: 10%;
-                                font-size: 1rem;
+                                font-size: 1.1rem;
                                 color: $color-green;
+                            }
+
+                        }
+
+                        //* buttons box
+                        .buttons {
+                            width: 100%;
+                            display: flex;
+                            height: max-content;
+                            align-items: center;
+                            justify-content: center;
+
+                            .btnRegister {
+                                display: block;
+                                height: max-content;
+                                font-family: "Vazir-light";
+                                font-size: .9rem;
+                                padding: .2rem 1.5rem;
+                                color: #ffffff;
+                                border: none;
+                                background-color: $color-green;
+                                border-radius: 25px;
+                                -webkit-border-radius: 25px;
+                                -moz-border-radius: 25px;
+                                -ms-border-radius: 25px;
+                                -o-border-radius: 25px;
+                                cursor: pointer;
+
+                            }
+
+                            //* singIn button
+                            .btnSignIn {
+                                display: block;
+                                color: $color-green;
+                                height: max-content;
+                                font-family: "Vazir-light";
+                                font-size: .9rem;
+                                padding: .3rem 1.5rem;
+                                background-color: transparent;
+                                border: 1px solid $color-green;
+                                border-radius: 25px;
+                                -webkit-border-radius: 25px;
+                                -moz-border-radius: 25px;
+                                -ms-border-radius: 25px;
+                                -o-border-radius: 25px;
+                                cursor: pointer;
                             }
                         }
 
-                        .btnSubmit {
-                            color: #ffffff;
-                            margin: .5rem;
-                            font-size: .6rem;
-                            padding: 0.4rem 2rem;
-                            background-color: $color-green;
-                            border: none;
-                            border-radius: 25px;
-                            -webkit-border-radius: 25px;
-                            -moz-border-radius: 25px;
-                            -ms-border-radius: 25px;
-                            -o-border-radius: 25px;
-                            cursor: pointer;
-                        }
+
                     }
                 }
 
                 .right-sign-in {
                     padding: 0;
-                    justify-content: space-evenly;
+                    justify-content: space-around;
 
                     .title {
-                        font-size: 1.5rem;
+                        font-size: 2rem;
                         margin: 0;
                     }
 
@@ -778,7 +877,7 @@ $font-Vazir : "Vazir";
                     //* form
                     .registerForm {
                         margin: 0;
-                        width: 70%;
+                        width: 90%;
                         height: auto;
                         display: flex;
                         flex-flow: column wrap;
@@ -788,6 +887,7 @@ $font-Vazir : "Vazir";
                             width: 100%;
                             display: flex;
                             align-items: center;
+                            justify-content: center;
                             margin: 0.5rem 0;
 
                             input {
@@ -795,7 +895,7 @@ $font-Vazir : "Vazir";
                                 font-family: "Vazir-light";
                                 background-color: transparent;
                                 font-size: .7rem;
-                                width: 95%;
+                                width: 80%;
                                 height: auto;
                                 outline: none;
                                 padding: 0.2rem 1rem;
@@ -811,26 +911,57 @@ $font-Vazir : "Vazir";
                             .icon {
                                 display: none;
                                 width: 10%;
-                                font-size: 1rem;
+                                font-size: 1.1rem;
                                 color: $color-green;
                             }
                         }
 
-                        .btnSubmit {
-                            color: #ffffff;
-                            margin: .5rem;
-                            font-size: .6rem;
-                            padding: 0.4rem 2rem;
-                            background-color: $color-green;
-                            border: none;
-                            border-radius: 25px;
-                            -webkit-border-radius: 25px;
-                            -moz-border-radius: 25px;
-                            -ms-border-radius: 25px;
-                            -o-border-radius: 25px;
-                            cursor: pointer;
+                        //* buttons box
+                        .buttons {
+                            width: 100%;
+                            display: flex;
+                            height: auto;
+                            justify-content: center;
+
+                            .btnRegister {
+                                display: block;
+                                color: #ffffff;
+                                height: max-content;
+                                font-family: "Vazir-light";
+                                font-size: .9rem;
+                                padding: .3rem 1.5rem;
+                                background-color: $color-green;
+                                border: none;
+                                border-radius: 25px;
+                                -webkit-border-radius: 25px;
+                                -moz-border-radius: 25px;
+                                -ms-border-radius: 25px;
+                                -o-border-radius: 25px;
+                                cursor: pointer;
+
+                            }
+
+                            //* singIn button
+                            .btnSignIn {
+                                display: block;
+                                height: max-content;
+                                font-family: "Vazir-light";
+                                font-size: .9rem;
+                                padding: .2rem 1.5rem;
+                                color: $color-green;
+                                border: 1px solid $color-green;
+                                background-color: transparent;
+                                border-radius: 25px;
+                                -webkit-border-radius: 25px;
+                                -moz-border-radius: 25px;
+                                -ms-border-radius: 25px;
+                                -o-border-radius: 25px;
+                                cursor: pointer;
+                            }
                         }
+
                     }
+                }
             }
 
             .left {

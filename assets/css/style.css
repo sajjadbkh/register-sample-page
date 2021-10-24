@@ -176,12 +176,39 @@ a {
   color: #3bb397;
 }
 
-#register .container .rightWrapper .right-register .registerForm .btnSubmit {
+#register .container .rightWrapper .right-register .registerForm .buttons {
+  width: 100%;
+  display: flex;
+  height: max-content;
+  align-items: center;
+  justify-content: center;
+}
+
+#register .container .rightWrapper .right-register .registerForm .buttons .btnSubmit {
+  height: max-content;
   color: #ffffff;
+  font-family: "Vazir-light";
   margin: .5rem;
   padding: 0.5rem 3rem;
   background-color: #3bb397;
   border: none;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  cursor: pointer;
+}
+
+#register .container .rightWrapper .right-register .registerForm .buttons .btnSignIn {
+  display: none;
+  height: max-content;
+  font-family: "Vazir-light";
+  color: #3bb397;
+  margin: .5rem;
+  padding: 0.5rem 3rem;
+  background-color: transparent;
+  border: 1px solid #3bb397;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
@@ -304,12 +331,35 @@ a {
   color: #3bb397;
 }
 
-#register .container .rightWrapper .right-sign-in .registerForm .btnSubmit {
+#register .container .rightWrapper .right-sign-in .registerForm .buttons {
+  width: 100%;
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+#register .container .rightWrapper .right-sign-in .registerForm .buttons .btnRegister {
+  display: block;
   color: #ffffff;
   margin: .5rem;
   padding: 0.5rem 3rem;
   background-color: #3bb397;
   border: none;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  cursor: pointer;
+}
+
+#register .container .rightWrapper .right-sign-in .registerForm .buttons .btnSignIn {
+  display: none;
+  color: #3bb397;
+  margin: .5rem;
+  padding: 0.5rem 3rem;
+  background-color: transparent;
+  border: 1px solid #3bb397;
   border-radius: 25px;
   -webkit-border-radius: 25px;
   -moz-border-radius: 25px;
