@@ -65,7 +65,7 @@ $font-Vazir : "Vazir";
                     -webkit-backdrop-filter: blur(5px);
                     border: 1px solid rgba(255, 255, 255, 0.42);
                     display: flex;
-                    justify-content: none;
+                    justify-content: center;
                     flex-flow: column wrap;
                     align-items: center;
                     transition: all 0.5s ease-in;
@@ -204,7 +204,7 @@ $font-Vazir : "Vazir";
                     -webkit-backdrop-filter: blur(5px);
                     border: 1px solid rgba(255, 255, 255, 0.42);
                     display: flex;
-                    justify-content: none;
+                    justify-content: center;
                     flex-flow: column wrap;
                     align-items: center;
                     transition: all 0.5s ease-in;
@@ -352,7 +352,7 @@ $font-Vazir : "Vazir";
 
                 .right-register {
                     padding: 0;
-                    justify-content: space-around;
+                    justify-content: center;
 
                     .title {
                         font-size: 2rem;
@@ -499,7 +499,7 @@ $font-Vazir : "Vazir";
 
                 .right-sign-in {
                     padding: 0;
-                    justify-content: space-around;
+                    justify-content: center;
 
                     .title {
                         font-size: 2rem;
@@ -672,7 +672,7 @@ $font-Vazir : "Vazir";
 
                 .right-register {
                     padding: 0;
-                    justify-content: space-around;
+                    justify-content: center;
 
                     .title {
                         font-size: 2rem;
@@ -820,7 +820,7 @@ $font-Vazir : "Vazir";
 
                 .right-sign-in {
                     padding: 0;
-                    justify-content: space-around;
+                    justify-content: center;
 
                     .title {
                         font-size: 2rem;
